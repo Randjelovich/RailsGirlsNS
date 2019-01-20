@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/info'
   resources :bees
-  resources :ideas
+  root to: redirect('/bees')
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

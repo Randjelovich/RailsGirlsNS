@@ -14,6 +14,7 @@
  *= require_self
  */
  body { padding-top: 100px;background-color: yellow}
- footer { margin-top: 100px; }
- table, td, th { vertical-align: middle; border: none; }
+ footer { margin-top: 100px; letter-spacing: }
+ table, td, th { vertical-align: middle; border: none;}
  th { border-bottom: 1px solid #DDD; }
+img {width: 100px}
