@@ -18,7 +18,7 @@
       <tr>
         <td><%= bee.name %></td>
         <td><%= bee.description %></td>
-        <td><%= bee.picture %></td>
+        <%= image_tag bee.picture_url, width: '100%' if bee.picture.present? %>
         <td><%= bee.adress %></td>
         <td><%= link_to 'Show', bee %></td>
         <td><%= link_to 'Edit', edit_bee_path(bee) %></td>
